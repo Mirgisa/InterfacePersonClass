@@ -68,7 +68,7 @@ class Student implements Person {
     }
     @Override
     public String getAttendanceString() {
-        return "this is student ("+this.name+")";
+        return "this is student "+ name +" ID ="+id+ " Grade ="+ grade ;
     }
 
     public void setName(String name){
@@ -104,7 +104,7 @@ class Teacher implements Person {
 
     @Override
     public String getAttendanceString() {
-        return "this is teacher ("+this.name+")";
+        return "this is teacher "+ name + " ID =" + id + " Giving Course = " + course;
     }
     public void setId(String id){
         this.id = id;
